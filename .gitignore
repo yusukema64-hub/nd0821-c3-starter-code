@@ -185,4 +185,4 @@ screenshots/*.jpeg
 *.key
 *.pem
 secrets.json
-config.ini
+config.ini.github/workflows/
