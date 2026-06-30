@@ -41,4 +41,4 @@ python-multipart==0.0.20
 httplib2==0.31.0
 
 # Linting
-flake8>=7.0
+flake8>=7.3.0
