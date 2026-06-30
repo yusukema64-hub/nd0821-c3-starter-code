@@ -1,0 +1,119 @@
+Overall precision: 0.7962
+Overall recall:    0.5372
+Overall fbeta:     0.6416
+
+=== Performance on slices of feature: workclass ===
+  ?                         n=389   precision=0.6667 recall=0.3333 fbeta=0.4444
+  Federal-gov               n=191   precision=0.8409 recall=0.5286 fbeta=0.6491
+  Local-gov                 n=387   precision=0.7528 recall=0.6091 fbeta=0.6734
+  Private                   n=4578  precision=0.8195 recall=0.5125 fbeta=0.6306
+  Self-emp-inc              n=212   precision=0.8431 recall=0.7288 fbeta=0.7818
+  Self-emp-not-inc          n=498   precision=0.6875 recall=0.4904 fbeta=0.5725
+  State-gov                 n=254   precision=0.7576 recall=0.6849 fbeta=0.7194
+  Without-pay               n=4     precision=1.0000 recall=1.0000 fbeta=1.0000
+
+=== Performance on slices of feature: education ===
+  10th                      n=183   precision=1.0000 recall=0.0833 fbeta=0.1538
+  11th                      n=225   precision=1.0000 recall=0.2727 fbeta=0.4286
+  12th                      n=98    precision=1.0000 recall=0.4000 fbeta=0.5714
+  1st-4th                   n=23    precision=1.0000 recall=1.0000 fbeta=1.0000
+  5th-6th                   n=62    precision=1.0000 recall=0.5000 fbeta=0.6667
+  7th-8th                   n=141   precision=1.0000 recall=0.0000 fbeta=0.0000
+  9th                       n=115   precision=1.0000 recall=0.3333 fbeta=0.5000
+  Assoc-acdm                n=198   precision=0.8182 recall=0.3830 fbeta=0.5217
+  Assoc-voc                 n=273   precision=0.9565 recall=0.3492 fbeta=0.5116
+  Bachelors                 n=1053  precision=0.7248 recall=0.8133 fbeta=0.7665
+  Doctorate                 n=77    precision=0.8393 recall=0.8246 fbeta=0.8319
+  HS-grad                   n=2085  precision=1.0000 recall=0.1884 fbeta=0.3171
+  Masters                   n=369   precision=0.8037 recall=0.8502 fbeta=0.8263
+  Preschool                 n=10    precision=1.0000 recall=1.0000 fbeta=1.0000
+  Prof-school               n=116   precision=0.8391 recall=0.8690 fbeta=0.8538
+  Some-college              n=1485  precision=0.9189 recall=0.2455 fbeta=0.3875
+
+=== Performance on slices of feature: marital-status ===
+  Divorced                  n=920   precision=0.9677 recall=0.2913 fbeta=0.4478
+  Married-AF-spouse         n=4     precision=1.0000 recall=0.0000 fbeta=0.0000
+  Married-civ-spouse        n=2950  precision=0.7839 recall=0.5927 fbeta=0.6750
+  Married-spouse-absent     n=96    precision=1.0000 recall=0.1250 fbeta=0.2222
+  Never-married             n=2126  precision=1.0000 recall=0.2427 fbeta=0.3906
+  Separated                 n=209   precision=1.0000 recall=0.3158 fbeta=0.4800
+  Widowed                   n=208   precision=1.0000 recall=0.1053 fbeta=0.1905
+
+=== Performance on slices of feature: occupation ===
+  ?                         n=389   precision=0.6667 recall=0.3333 fbeta=0.4444
+  Adm-clerical              n=726   precision=0.7209 recall=0.3229 fbeta=0.4460
+  Armed-Forces              n=3     precision=1.0000 recall=1.0000 fbeta=1.0000
+  Craft-repair              n=821   precision=0.8261 recall=0.3149 fbeta=0.4560
+  Exec-managerial           n=838   precision=0.8426 recall=0.6474 fbeta=0.7322
+  Farming-fishing           n=193   precision=0.5385 recall=0.2500 fbeta=0.3415
+  Handlers-cleaners         n=273   precision=0.5000 recall=0.3333 fbeta=0.4000
+  Machine-op-inspct         n=378   precision=0.7500 recall=0.2553 fbeta=0.3810
+  Other-service             n=667   precision=0.5714 recall=0.1538 fbeta=0.2424
+  Priv-house-serv           n=26    precision=1.0000 recall=1.0000 fbeta=1.0000
+  Prof-specialty            n=828   precision=0.7984 recall=0.7679 fbeta=0.7828
+  Protective-serv           n=136   precision=0.6250 recall=0.2381 fbeta=0.3448
+  Sales                     n=729   precision=0.7801 recall=0.5729 fbeta=0.6607
+  Tech-support              n=189   precision=0.9048 recall=0.3725 fbeta=0.5278
+  Transport-moving          n=317   precision=0.7727 recall=0.2656 fbeta=0.3953
+
+=== Performance on slices of feature: relationship ===
+  Husband                   n=2590  precision=0.7859 recall=0.5991 fbeta=0.6799
+  Not-in-family             n=1702  precision=0.9804 recall=0.2660 fbeta=0.4184
+  Other-relative            n=178   precision=1.0000 recall=0.3750 fbeta=0.5455
+  Own-child                 n=1019  precision=1.0000 recall=0.1176 fbeta=0.2105
+  Unmarried                 n=702   precision=1.0000 recall=0.2222 fbeta=0.3636
+  Wife                      n=322   precision=0.7647 recall=0.5455 fbeta=0.6367
+
+=== Performance on slices of feature: race ===
+  Amer-Indian-Eskimo        n=71    precision=0.8333 recall=0.5000 fbeta=0.6250
+  Asian-Pac-Islander        n=193   precision=0.7258 recall=0.7258 fbeta=0.7258
+  Black                     n=599   precision=0.7907 recall=0.5231 fbeta=0.6296
+  Other                     n=55    precision=0.6667 recall=0.6667 fbeta=0.6667
+  White                     n=5595  precision=0.8017 recall=0.5294 fbeta=0.6377
+
+=== Performance on slices of feature: sex ===
+  Female                    n=2126  precision=0.7949 recall=0.3991 fbeta=0.5314
+  Male                      n=4387  precision=0.7964 recall=0.5613 fbeta=0.6585
+
+=== Performance on slices of feature: native-country ===
+  ?                         n=125   precision=0.6774 recall=0.6774 fbeta=0.6774
+  Cambodia                  n=3     precision=1.0000 recall=1.0000 fbeta=1.0000
+  Canada                    n=22    precision=0.6250 recall=0.6250 fbeta=0.6250
+  China                     n=18    precision=0.8750 recall=0.8750 fbeta=0.8750
+  Columbia                  n=6     precision=1.0000 recall=1.0000 fbeta=1.0000
+  Cuba                      n=19    precision=1.0000 recall=0.8000 fbeta=0.8889
+  Dominican-Republic        n=8     precision=1.0000 recall=1.0000 fbeta=1.0000
+  Ecuador                   n=5     precision=1.0000 recall=0.5000 fbeta=0.6667
+  El-Salvador               n=20    precision=1.0000 recall=1.0000 fbeta=1.0000
+  England                   n=14    precision=0.7500 recall=0.7500 fbeta=0.7500
+  France                    n=5     precision=1.0000 recall=1.0000 fbeta=1.0000
+  Germany                   n=32    precision=0.8182 recall=0.6923 fbeta=0.7500
+  Greece                    n=7     precision=1.0000 recall=0.5000 fbeta=0.6667
+  Guatemala                 n=13    precision=1.0000 recall=1.0000 fbeta=1.0000
+  Haiti                     n=6     precision=1.0000 recall=1.0000 fbeta=1.0000
+  Honduras                  n=4     precision=1.0000 recall=1.0000 fbeta=1.0000
+  Hong                      n=8     precision=0.5000 recall=1.0000 fbeta=0.6667
+  Hungary                   n=3     precision=1.0000 recall=0.5000 fbeta=0.6667
+  India                     n=21    precision=0.7000 recall=0.8750 fbeta=0.7778
+  Iran                      n=12    precision=0.6000 recall=0.6000 fbeta=0.6000
+  Ireland                   n=5     precision=1.0000 recall=0.0000 fbeta=0.0000
+  Italy                     n=14    precision=0.7500 recall=0.7500 fbeta=0.7500
+  Jamaica                   n=13    precision=0.0000 recall=1.0000 fbeta=0.0000
+  Japan                     n=11    precision=1.0000 recall=0.7500 fbeta=0.8571
+  Laos                      n=4     precision=1.0000 recall=0.0000 fbeta=0.0000
+  Mexico                    n=114   precision=1.0000 recall=0.3333 fbeta=0.5000
+  Nicaragua                 n=7     precision=1.0000 recall=1.0000 fbeta=1.0000
+  Peru                      n=5     precision=1.0000 recall=0.0000 fbeta=0.0000
+  Philippines               n=35    precision=1.0000 recall=0.6875 fbeta=0.8148
+  Poland                    n=14    precision=0.3333 recall=0.5000 fbeta=0.4000
+  Portugal                  n=6     precision=1.0000 recall=1.0000 fbeta=1.0000
+  Puerto-Rico               n=22    precision=0.8000 recall=0.6667 fbeta=0.7273
+  Scotland                  n=3     precision=1.0000 recall=1.0000 fbeta=1.0000
+  South                     n=13    precision=0.2000 recall=0.5000 fbeta=0.2857
+  Taiwan                    n=11    precision=0.8000 recall=1.0000 fbeta=0.8889
+  Thailand                  n=5     precision=0.0000 recall=1.0000 fbeta=0.0000
+  Trinadad&Tobago           n=3     precision=1.0000 recall=1.0000 fbeta=1.0000
+  United-States             n=5870  precision=0.8047 recall=0.5226 fbeta=0.6337
+  Vietnam                   n=5     precision=1.0000 recall=1.0000 fbeta=1.0000
+  Yugoslavia                n=2     precision=1.0000 recall=1.0000 fbeta=1.0000
+
