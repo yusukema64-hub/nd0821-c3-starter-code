@@ -186,3 +186,4 @@ screenshots/*.jpeg
 *.pem
 secrets.json
 config.ini.github/workflows/
+.github/workflows/
