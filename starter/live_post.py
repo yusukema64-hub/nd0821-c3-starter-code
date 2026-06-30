@@ -9,7 +9,7 @@ Usage:
 """
 import requests
 
-API_URL = "https://your-app-name.onrender.com/predict"
+API_URL = "https://nd0821-c3-starter-code-epnw.onrender.com/predict"
 
 sample = {
     "age": 37,
